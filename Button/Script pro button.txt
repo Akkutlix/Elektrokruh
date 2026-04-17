@@ -1,0 +1,15 @@
+int button = ; // sem se doplní, na který pin je tlačítko připojené
+bool lastButtonState = HIGH; //obě proměnné musí být venku (mimo jakýkoliv void)
+// ve void setup() nesmíme zapomenout: pinMode(button, INPUT_PULLUP);
+
+void ButtonDetect() {
+
+  bool buttonState = digitalRead(button);
+
+  if (lastButtonState == HIGH && buttonState == LOW) {
+    // sem se dopní co tlačítko bude dělat
+    delay(50); // debounce
+  }
+
+  lastButtonState = buttonState;
+}
