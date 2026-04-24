@@ -1,0 +1,5 @@
+Zapojení už je z minulé úlohy.
+
+1) Doplňte SETUP
+2) Doplňte do všech delayů pětinu sekundy (kolik milisekund je pětina sekundy?)
+3) Podle toho jestli držíte nebo nedržíte tlačítko program něco dělá, zjistěte co

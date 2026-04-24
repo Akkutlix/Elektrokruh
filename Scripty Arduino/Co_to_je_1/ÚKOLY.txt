@@ -1,0 +1,5 @@
+Zapojení už máte z minulé úlohy.
+
+1) Doplňte pinMode funkce v setupu (aby jste připravili LEDky a tlačítko)
+2) Doplňte hodnotu za int min a max, jaké číslo tam napsat máte v programu
+3) Mačkejte tlačítko, a zaznamenávejte, co dělá, pak se pokuste uhádnout, co reálného program napodobuje

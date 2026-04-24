@@ -1,0 +1,9 @@
+Rezistory u LED diod jsou 470, Rezistor u Tlačítka je 10K.
+
+Program si zkopírujte do Arduino IDE.
+
+1) DOPLŇTE SETUP (takové to pinMode(něco, blabla);) a nahrajte program do vašeho kontroleru
+2) Mačkejte tlačítko do té doby, než nesvítí žádná dioda (může být i po zapnutí - nemusíte nic mačkat)
+3) Zmáčkněte tlačítko tolikrát, kolik máte písmen ve jméně - vyčtěte z toho binární číslo
+
+BINÁRNÍ ČÍSLO: svítící LEDka znamená 1, zhasnutá LEDka znamená 0, číslo může vypadat takto: 1011
